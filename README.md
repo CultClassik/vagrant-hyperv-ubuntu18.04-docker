@@ -2,6 +2,7 @@
 Just a repo to keep my stuff in for a Docker test system on a Windows/Hyper-V host.
 
 # Setup
+* Ensure you have a local Windows admin account for Vagrant to use during vagrant up
 * set VAGRANT_HOME env var to where you want to store boxes
 * add vagrant to path, i.e. $Env:Path += ";C:\HashiCorp\Vagrant\bin"
 * vagrant init
