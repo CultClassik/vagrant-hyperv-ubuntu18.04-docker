@@ -41,3 +41,9 @@
     - name: Install Docker Module for Python
       pip:
         name: docker
+
+    - user:
+      name: vagrant
+      shell: /bin/bash
+      groups: docker
+      append: yes
