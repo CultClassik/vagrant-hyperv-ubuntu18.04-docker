@@ -2,7 +2,7 @@
 
 Just a repo to keep my stuff in for a Docker test system on a Windows/Hyper-V host.
 
-# Setup
+## Setup
 
 * Ensure you have a local Windows admin account for Vagrant to use during vagrant up
 * set VAGRANT_HOME env var to where you want to store boxes
@@ -12,7 +12,7 @@ Just a repo to keep my stuff in for a Docker test system on a Windows/Hyper-V ho
 
 * Add the IP of your virtual machine to the ./inventory.yml file
 
-# Unix subystem for Windows
+## Unix subsystem for Windows
 
 1. Enable this under Windows Programs and Features
 2. Install Ubuntu from the Microsoft App store
