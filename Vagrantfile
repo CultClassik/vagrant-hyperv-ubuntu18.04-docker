@@ -7,8 +7,8 @@
 # you're doing.
 Vagrant.configure("2") do |config|
   # https://docs.vagrantup.com.
-  config.vm.box = "bento/ubuntu-18.04"
-  config.vm.hostname = "tdocker01"
+  config.vm.box = 'bento/ubuntu-18.04'
+  config.vm.hostname = 'tdocker01'
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   # config.vm.network "private_network", ip: "192.168.33.10"
@@ -16,7 +16,8 @@ Vagrant.configure("2") do |config|
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
-# no net config avail with hyper-v :(
+
+  # no net config avail with hyper-v :(
   #config.vm.network "Public_vSwitch"
 
   # Share an additional folder to the guest VM. The first argument is
