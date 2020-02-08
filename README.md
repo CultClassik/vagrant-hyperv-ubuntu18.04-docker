@@ -10,6 +10,9 @@ Just a repo to keep my stuff in for a Docker test system on a Windows/Hyper-V ho
 * vagrant init
 * vagrant up
 
+This will bring up the VM, upgrade apt packages and run the Ansible docker.yml play.
+
+# OLD INFO BELOW
 * Add the IP of your virtual machine to the ./inventory.yml file
 
 ## Unix subsystem for Windows
