@@ -27,6 +27,7 @@ Vagrant.configure('2') do |config|
     apt-get update
     apt-get upgrade -y
     pip3 install ansible
+    ansible-playbook /vagrant/docker.yml
   SHELL
 
   # doesn't work with windows
